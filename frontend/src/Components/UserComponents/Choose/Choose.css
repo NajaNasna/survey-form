@@ -1,0 +1,26 @@
+.choose-div{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url('../../../../public/images/bg2.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px;
+
+}
+.ownerSupplier{
+    display: flex;
+    justify-content: space-around;
+}
+.chooseQuestion{
+    font-size: 22px;
+}
+.ownerSupplier label{
+    font-size: 20px;
+    margin-left: 8px;
+}

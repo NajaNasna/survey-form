@@ -1,0 +1,41 @@
+/* .bg{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px;
+    background-image: url('../../../public/images/bg2.jpg');
+} */
+.bg{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url('../../../../public/images/bg2.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px;
+
+}
+.content-div{
+    background-color: rgba(32, 30, 30, 0.74);
+    outline:1px solid rgba(255, 255, 255, 0.562);
+    border-radius: 1rem;
+    padding: 3rem;
+    color: white;
+}
+.quiz-btn-section{
+    float: right;
+}
+.quiz-btn {
+    width: 5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #ffff;
+    display: block;
+    float: right !important;
+}
